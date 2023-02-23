@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
-* _isdigit - check if the input is a digit
-* Return : 1 if digit otherwise 0
-*/
-
+/**
+ * _isdigit - checks if the input is a number
+ * @c: input number
+ * Return: 1 if is a number (0 to 9) otherwise 0
+ */
 int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)

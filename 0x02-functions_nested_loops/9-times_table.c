@@ -4,7 +4,6 @@
  * times_table - check the code 
  * Return: Always 0.
  */
-
 void times_table(void)
 {
 	int x, y, multiplied_value;
@@ -38,4 +37,4 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
-
+      

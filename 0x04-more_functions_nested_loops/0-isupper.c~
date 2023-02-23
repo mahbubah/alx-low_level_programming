@@ -2,18 +2,18 @@
 #include <stdio.h>
 
 /*
-* main - check the code
-*
-* Return : Always 0
+* _isupper - check if a character is uppercase letter
+* Return : 1 if uppercase otherwise 0
 */
 
-int main(void)
+int _isupper(int c)
 {
-	char c;
-
-	while ( isupper(c) )
+	if (c >= 65 && c <= 90)
 	{
-		return(1);
+		return (1);
 	}
-	return(0);
+	else
+	{
+		return (0);
+	}
 }

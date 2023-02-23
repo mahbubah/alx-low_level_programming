@@ -5,7 +5,7 @@
  * mul - multiplies numbers inputted
  * @a : input number
  * @b : input number
- * Return : the result
+ * Return: multiplication of the numbers.
  */
 int mul(int a, int b)
 {
